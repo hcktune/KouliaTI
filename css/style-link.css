@@ -19,9 +19,28 @@ a
 text-decoration: none;
 text-align: left;
 }
+#headingOne{
+    background-color: #4f17b83d;
+}
+#headingTwo{
+    background-color: #174ab81f;
+}
+#headingThree{
+    background-color: #4f17b83d;
+}
+#headingFour{
+    background-color: #174ab81f;
+
+}
 h5{
     text-align: left;
 }
+
+ul a{
+    font-size: 1.25em;
+    
+}
+
 header .link
 {
     display: flex;
@@ -65,7 +84,7 @@ font-size: 2rem;
 }
 .search
 {
-    background-color: #d6d6d6;
+    background-color: #0095ff;
     width: 100%;
     text-align: center;
 }
