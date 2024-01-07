@@ -1,7 +1,7 @@
 body{
   min-height: 100vh;
-  overflow: hidden;
-  background-repeat: no-repeat;
+  overflow: hidden; /* scroll invisble */
+  background-repeat: no-repeat; /* pour image */
 }
 section{
   width: 50%;
