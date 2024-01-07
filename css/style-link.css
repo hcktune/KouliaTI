@@ -39,10 +39,6 @@ h5{
     text-align: left;
 }
 
-ul a{
-    font-size: 1.25em;
-    
-}
 
 header .link
 {
@@ -73,7 +69,7 @@ font-size: 3rem;
 font-size: 2rem;
 }
 
-.container
+.container /* pour la section qui se trouve dans le centre */
 {
     text-align: center;
     width: 85%;
@@ -82,7 +78,7 @@ font-size: 2rem;
     align-items: center;
     margin: 3rem auto;
 }
-.search
+/* .search
 {
     background-color: #0095ff;
     width: 100%;
@@ -99,7 +95,7 @@ font-size: 2rem;
   font-size: 2rem;
   color: black;
   cursor: pointer;
-}
+} */
 input 
 {
 width: 40%;
@@ -112,39 +108,7 @@ outline: none;
 box-shadow: 10px 10px 10px 10px black;
 transform: scale(1.1, 1.1);
 }
-#book-list
-{
-    text-align: left;
-    width: 90%;
-    color: black;
-    padding: 1.5rem;
-}
-#book-list h2
-{
-margin-bottom: 1.5rem;
-color: black;
-font-size: 2rem;
-text-align: center;
-}
-#book-list li
-{
-    padding: 1.2rem 0;
-    padding-left: 1rem;
-    box-shadow: 3px 3px 10px black;
-    border-left: 5px solid black;
-    margin: 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-    transition: 400ms;
-    list-style: none;
-}
-#book-list li:hover
-{
-    border-left: 5px solid Black;
-    transform: translateX(15px);
-}
+
 
 
 
@@ -154,7 +118,6 @@ text-align: center;
 {
  
     cursor: pointer;
-    transition: 300ms;
 }
 .hov:hover
 {
