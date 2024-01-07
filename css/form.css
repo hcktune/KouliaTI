@@ -1,8 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
-*
-{
-  
-}
 .titre
 {
     text-align: center;
@@ -10,22 +6,13 @@
     animation:myanimation 3s infinite;
 }
 
-@keyframes myanimation{
-                0%{color:slategray;}
-                10%{color:grey;}
-                25%{color:#d6d6d6;}
-                35%{color: black;}
-                50%{color:slategray;}
-                75%{color:grey;}
-                100%{color: #d6d6d6;}
-                }
+
 *, body, .titre
 {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: whitesmoke;
-    color: black;
+    background-color: #e7e7e7a2;
 }
 .container
 {
@@ -65,17 +52,12 @@ form {
     grid-template-columns: 7% 93%;
     margin: 25px 0;
     padding: 5px 0;
-    border-bottom: 2px solid grey;
+    border-bottom: 2px solid rgb(255, 255, 255);
 }
 .login-content .input-div.one {
     margin-top: 0;
 }
-.i {
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .i i {
     transition: .3s;
 }
@@ -90,20 +72,11 @@ form {
     left: 10px;
     top: 50%;
     transform: translateY(-50%);
-    color: black;
+    color: gray;
     font-size: 18px;
     transition: .3s;
 }
-.input-div:before,
-.input-div:after {
-    content: '';
-    position: absolute;
-    bottom: -2px;
-    width: 0%;
-    height: 2px;
-    background-color: #009193;
-    transition: .4s;
-}
+
 .input-div:before {
     right: 50%;
 }
@@ -132,7 +105,7 @@ form {
     background: none;
     padding: 0.5rem 0.7rem;
     font-size: 1.2rem;
-    color: grey;
+    color: black;
 }
 .input-div.pass {
     margin-bottom: 4px;
@@ -151,21 +124,23 @@ a:hover {
 .btn {
     display: block;
     width: 100%;
-    height: 50px;
     border-radius: 25px;
     outline: none;
     border: none;
-    background-image: linear-gradient(to right, slategray, #d6d6d6, grey);
     background-size: 200%;
     font-size: 1.2rem;
-    color: #e7e7e7;
+    background-color: #ffffff;
     text-transform: uppercase;
     margin: 1rem 0;
     cursor: pointer;
     transition: .5s;
 }
+
 .btn:hover {
-    background-position: right;
+    transform: scale(0.9);
+    transition: 200ms;
+    background-color: #28a745;
+    color: white;
 }
 
 @media screen and (max-width: 1050px) {
