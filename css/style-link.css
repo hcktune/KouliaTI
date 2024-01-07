@@ -6,7 +6,7 @@ box-sizing: border-box;
 }
 body 
 {
-line-height: 1.6;
+
 background-color: whitesmoke;
 color: Black;
 }
@@ -52,7 +52,7 @@ font-size: 2rem;
 }
 #text span 
 {
-color: RED;
+
 }
 .container
 {
@@ -83,7 +83,7 @@ color: RED;
 }
 .search h2 a span
 {
-  color: red;
+  
 }
 input 
 {
@@ -147,41 +147,19 @@ text-align: center;
 {
     color: red;
 }
-#add-book 
-{
-    display: flex;
-    justify-content: center;
-    background-color: #d6d6d6;
-    width: 100%;
-    border-top: 3px solid Black;
-    box-shadow: 3px 3px 10px black;
-    padding: 1rem 0;
-    text-align: center;
-}
-#add-book input
-{
-    padding: 0.6rem 0.5rem;
-    transition: 400ms;
-}
-#add-book input:focus
-{
-    padding: 0.7rem 0;
-    padding-right: 9rem;
-    outline: none;
-}
+
+
+
 .btn
 {
-    padding: 0.5rem 1.5rem;
-    border-radius: 5px;
-    background-color: #007bff;
-    margin-right: 1rem;
-    color: white;
+ 
     cursor: pointer;
     transition: 300ms;
 }
-.btn:hover
+.hov:hover
 {
-    background-color: slateblue;
+   transform: scale(0.8);
+   transition: 400ms;
 }
 .btn-clear
 {
@@ -215,7 +193,7 @@ text-align: center;
 }
 .btn-reg:hover
 {
-    background-color: slateblue;
+
 }
 .btn-reg a
 {
