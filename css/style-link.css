@@ -9,7 +9,6 @@ ul a:hover{
 }
 body 
 {
-
 background-color: whitesmoke;
 color: Black;
 }
@@ -22,6 +21,7 @@ a
 text-decoration: none;
 text-align: left;
 }
+
 #headingOne{
     background-color: #4f17b83d;
 }
@@ -39,7 +39,6 @@ h5{
     text-align: left;
 }
 
-
 header .link
 {
     display: flex;
@@ -54,20 +53,8 @@ header .link h3 a
 {
     color: black;
 }
-#text 
-{
-color: Black;
-text-align: center;
-border-bottom: 1px solid black;
-}
-#text h1
-{
-font-size: 3rem;
-}
-#text h2 
-{
-font-size: 2rem;
-}
+
+
 
 .container /* pour la section qui se trouve dans le centre */
 {
@@ -78,45 +65,41 @@ font-size: 2rem;
     align-items: center;
     margin: 3rem auto;
 }
-/* .search
+.heading
 {
     background-color: #0095ff;
     width: 100%;
     text-align: center;
 }
-.search h1
+.heading h1
 {
     margin: 1.5rem 0;
     font-size: 2.5rem;
 }
-.search h2 a
+.heading h2 a
 {
   margin: 1.5rem 0;
   font-size: 2rem;
   color: black;
   cursor: pointer;
-} */
+}
 input 
 {
 width: 40%;
 padding: 0.5rem 0.5rem;
 margin-bottom: 1.5rem;
 transition: 300ms;}
-input:focus 
+
+input:focus
 {
 outline: none;
 box-shadow: 10px 10px 10px 10px black;
 transform: scale(1.1, 1.1);
 }
 
-
-
-
-
-
 .btn
 {
- 
+
     cursor: pointer;
 }
 .hov:hover

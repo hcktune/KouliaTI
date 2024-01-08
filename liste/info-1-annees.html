@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style-link.css">
+    <title>Mes livres lu</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <!-- En-tête de la page -->
+    <header class="p-4 bg-info d-flex text-center">
+        <img src="../img/kouliati_logo.png" alt="" width="100">
+        <!-- Menu de navigation -->
+        <div class="d-flex align-items-center justify-content-center flex-wrap w-100">
+            <h5 class="m-0 p-1"><a class=" col-3 mr-4 text-white" href="../Accueil.html">Accueil</a></h3>
+            <h5 class="m-0 p-1"><a class=" col-3 mr-4 text-white" href="filieres.html">Mon espace</a></h3>
+            <h5 class="m-0 p-1"><a class="btn-link col-3 mr-4 text-white" href="ma-liste-de-souhait.html">Qui sommes-nous ?</a></h3>
+            <h5 class="m-0 p-1"><a class="col-3 mr-4 text-white" href="../form/form_contact_js.html">Contactez-nous !</a></h3>
+        </div>
+    </header>
+
+<div class="container shadow-lg bg-white">
+
+<section class="heading">
+
+    <h1 class="text-white">1er année : Mathématiques</h1>
+
+</section>
+
+<section class="collection w-100 m-5">
+
+ 
+    <div id="accordion w-100">
+        <div id="accordion w-100">
+            <!-- Carte pour les Cours -->
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <!-- Bouton pour le lien vers la section des Cours -->
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Cours
+                        </button>
+                    </h5>
+                </div>
+    
+                <!-- Contenu de la carte pour les Cours -->
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        <!-- Liste des modules avec liens pour les Cours -->
+                        <ul class="m-0 d-flex flex-column">
+                            <!-- Algebre -->
+                            <ul class="collapse d-flex flex-wrap mb-4 border p-2 justify-content-between" id="algebre1">
+                                <a class="pl-3 mr-3 " href="../contenus/mathematique/cours/algebre-1_05_01_2023.pdf">Algebre 1</a>
+                                <a class="pl-3 mr-3 " href="facebook.com">Algebre 2</a>
+                                <a class="pl-3 mr-3 " href="">Algebre 3</a>
+                                <a class="pl-3 mr-3 " href="">Algebre 4</a>
+                                <a class="pl-3 mr-3 " href="">Algebre 5</a>
+                            </ul>
+                            <!-- Analyse -->
+                            <ul class="collapse border mb-4  p-2 d-flex flex-wrap rounded justify-content-between" id="analyse">
+                                <a class="pl-3 mr-3 " href="">Analyse 1</a>
+                                <a class="pl-3 mr-3 " href="">Analyse 2</a>
+                                <a class="pl-3 mr-3 " href="">Analyse 3</a>
+                                <a class="pl-3 mr-3  " href="">Analyse 4</a>
+                                <a class="pl-3 mr-3  " href="">Analyse 5</a>
+                            </ul>
+                            <!-- Probabilité -->
+                            <a class="p-2" href="">Probabilité et statistique</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="accordion w-100">
+            <!-- Carte pour les TD -->
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <!-- Bouton pour le lien vers la section des TD -->
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            TD
+                        </button>
+                    </h5>
+                </div>
+    
+                <!-- Contenu de la carte pour les TD -->
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        <!-- Liste des modules avec liens pour les TD -->
+                        <ul class="m-0 d-flex flex-column">
+                            <!-- Algebre -->
+                            <ul class="collapse d-flex flex-wrap mb-4 border p-2 justify-content-between" id="algebre1">
+                                <a class="pl-3 mr-3 " href="../contenus/mathematique/cours/algebre-1_05_01_2023.pdf">Algebre 1</a>
+                                <a class="pl-3 mr-3 " href="facebook.com">Algebre 2</a>
+                                <a class="pl-3 mr-3 " href="">Algebre 3</a>
+                                <a class="pl-3 mr-3 " href="">Algebre 4</a>
+                                <a class="pl-3 mr-3 " href="">Algebre 5</a>
+                            </ul>
+                            <!-- Analyse -->
+                            <ul class="collapse border mb-4  p-2 d-flex flex-wrap rounded justify-content-between" id="analyse">
+                                <a class="pl-3 mr-3 " href="">Analyse 1</a>
+                                <a class="pl-3 mr-3 " href="">Analyse 2</a>
+                                <a class="pl-3 mr-3 " href="">Analyse 3</a>
+                                <a class="pl-3 mr-3  " href="">Analyse 4</a>
+                                <a class="pl-3 mr-3  " href="">Analyse 5</a>
+                            </ul>
+                            <!-- Probabilité -->
+                            <a class="p-2" href="">Probabilité et statistique</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="accordion w-100">
+            <!-- Carte pour les TP -->
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <!-- Bouton pour le lien vers la section des TP -->
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            TP
+                        </button>
+                    </h5>
+                </div>
+    
+                <!-- Contenu de la carte pour les TP -->
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        <!-- Liste des modules avec liens pour les TP -->
+                        <ul class="m-0 d-flex flex-column">
+                            <!-- Algebre -->
+                            <ul class="collapse d-flex flex-wrap mb-4 border p-2 justify-content-between" id="algebre1">
+                                <a class="pl-3 mr-3 " href="../contenus/mathematique/cours/algebre-1_05_01_2023.pdf">Algebre 1</a>
+                                <a class="pl-3 mr-3 " href="facebook.com">Algebre 2</a>
+                                <a class="pl-3 mr-3 " href="">Algebre 3</a>
+                                <a class="pl-3 mr-3 " href="">Algebre 4</a>
+                                <a class="pl-3 mr-3 " href="">Algebre 5</a>
+                            </ul>
+                            <!-- Analyse -->
+                            <ul class="collapse border mb-4  p-2 d-flex flex-wrap rounded justify-content-between" id="analyse">
+                                <a class="pl-3 mr-3 " href="">Analyse 1</a>
+                                <a class="pl-3 mr-3 " href="">Analyse 2</a>
+                                <a class="pl-3 mr-3 " href="">Analyse 3</a>
+                                <a class="pl-3 mr-3  " href="">Analyse 4</a>
+                                <a class="pl-3 mr-3  " href="">Analyse 5</a>
+                            </ul>
+                            <!-- Probabilité -->
+                            <a class="p-2" href="">Probabilité et statistique</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  Examens  -->
+        <div id="accordion w-100">
+            <!-- Carte pour les Examens -->
+            <div class="card">
+                <div class="card-header" id="headingFour">
+                    <h5 class="mb-0">
+                        <!-- Bouton pour le lien vers la section des Examens -->
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Examens
+                        </button>
+                    </h5>
+                </div>
+    
+                <!-- Contenu de la carte pour les Examens -->
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                    <div class="card-body">
+                        <!-- Liste des modules avec liens pour les Examens -->
+                        <ul class="m-0 d-flex flex-column">
+                            <!-- Algebre -->
+                            <ul class="collapse d-flex flex-wrap mb-4 border justify-content-between p-2" id="algebre1">
+                                <a class="pl-3 mr-3 " href="../contenus/mathematique/cours/algebre-1_05_01_2023.pdf">Algebre 1</a>
+                                <a class="pl-3 mr-3 " href="facebook.com">Algebre 2</a>
+                                <a class="pl-3 mr-3 " href="">Algebre 3</a>
+                                <a class="pl-3 mr-3 " href="">Algebre 4</a>
+                                <a class="pl-3 mr-3 " href="">Algebre 5</a>
+                            </ul>
+                            <!-- Analyse -->
+                            <ul class="collapse border mb-4  p-2 d-flex flex-wrap justify-content-between rounded" id="analyse">
+                                <a class="pl-3 mr-3" href="">Analyse 1</a>
+                                <a class="pl-3  mr-3" href="">Analyse 2</a>
+                                <a class="pl-3  mr-3" href="">Analyse 3</a>
+                                <a class="pl-3  mr-3" href="">Analyse 4</a>
+                                <a class="pl-3  mr-3" href="">Analyse 5</a>
+                            </ul>
+                            <!-- Probabilité -->
+                            <a class="p-2" href="">Probabilité et statistique</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</section>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="../js/script.js"></script>
+
+</body>
+</html>

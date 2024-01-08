@@ -2,23 +2,35 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>KoliaTI - filière</title>
     <!-- Liens vers les feuilles de style -->
-    <link rel="stylesheet" href="./css/style-index.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style-link.css">
 </head>
-<body class="m-5 d-flex align-items-center" background="img/WhatsApp Image 2024-01-06 at 22.18.10.png">
-    <section>
-        <!-- Conteneur principal avec le texte -->
-        <div id="text m-5">
-            <h1 class="p-0 mb-5 mt-5 text-white">Explorez, Apprenez, Excellez!</h1>
-            <!-- Flexbox pour les liens -->
-            <div class="d-flex flex-wrap link justify-content-between m-0 p-0">
-                <h3 class="mb-3"><a style="font-weight: bold;" class="btn btn-primary mr-3" href="link/ma-liste-de-souhait.html">Qui sommes-nous ?</a></h3>
-                <h3 class="mb-3"><a style="font-weight: bold;" class="btn btn-primary mr-3" href="link/top-dix.html">Mon espace</a></h3>
-                <h3 class="mb-3"><a style="font-weight: bold;" class="btn btn-primary mr-3" href="form/form_contact_js.html">Contactez-nous !</a></h3>
-            </div>
+
+<body>
+    <!-- En-tête de la page -->
+    <header class="p-4 bg-info d-flex">
+        <img src="../img/kouliati_logo.png" alt="" width="100">
+        <!-- Menu de navigation -->
+        <div class="d-flex align-items-center justify-content-center flex-wrap w-100">
+            <h5 class="m-0 p-1"><a class=" col-3 mr-4 text-white" href="../Accueil.html">Accueil</a></h3>
+            <h5 class="m-0 p-1"><a class=" col-3 mr-4 text-white" href="filieres.html">Mon espace</a></h3>
+            <h5 class="m-0 p-1"><a class="col-3 mr-4 text-white" href="../form/form_contact_js.html">Contactez-nous !</a></h3>
+        </div>
+    </header>
+
+    <!-- Section principale -->
+    <section class="container py-5 bg-white">
+        <div class="jumbotron">
+            <h1 class="display-5 mb-5">Qui sommes-nous?</h1>
+            <p class="lead">KOULIATI, votre partenaire académique en ligne. Simplifiant l'accès aux ressources pour un apprentissage optimal.
+                Rejoignez-nous pour une expérience éducative fluide et accessible.</p>
+            <hr class="my-4">
+            <p>Plongez dans une expérience d'apprentissage interactive. Nos cours intègrent des méthodes d'enseignement modernes
+                pour une compréhension approfondie.</p>
+            <a class="btn btn-outline-success btn-lg" href="top-dix.html" role="button">Commencez</a>
         </div>
     </section>
 
@@ -31,4 +43,3 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
-
