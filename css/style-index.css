@@ -1,7 +1,12 @@
 body{
-  min-height: 100vh;
-  overflow: hidden; /* scroll invisble */
+  background-image: url(../img/WhatsApp\ Image\ 2024-01-06\ at\ 22.18.10.png);
   background-repeat: no-repeat; /* pour image */
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  min-height: 100vh;
+  max-width: 100vw;
+  overflow: hidden; /* scroll invisble */
+  
 }
 section{
   width: 50%;
